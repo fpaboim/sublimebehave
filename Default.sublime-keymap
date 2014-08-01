@@ -1,0 +1,21 @@
+[
+    {
+        "keys": ["ctrl+c","r"], "command": "run_python_test",
+        "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.behave"}
+        ]
+    },
+    {
+        "keys": ["ctrl+c","t"], "command": "run_python_project_tests",
+        "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.python"},
+        ]
+    },
+    {
+        "keys": ["ctrl+c","t"], "command": "run_python_project_tests",
+        "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.behave"},
+        ]
+    }
+
+]
